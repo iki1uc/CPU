@@ -2,23 +2,23 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>CPU ONLINE</title>
+  <title>CPU 81-Würfel</title>
   <style>
     body {
       background: #111;
-      color: #0f0;
+      color: #f33;
       font-family: monospace;
       padding: 40px;
       font-size: 22px;
     }
     .cpu {
-      border: 2px solid #0f0;
+      border: 2px solid #f33;
       padding: 20px;
-      width: 420px;
+      width: 480px;
     }
-    .num {
+    .stat {
       margin-top: 20px;
-      color: #0ff;
+      color: #0f0;
     }
   </style>
 </head>
@@ -29,9 +29,19 @@
   <div>CPU ONLINE</div>
   <div>System: CPU-100</div>
   <div>Status: aktiv</div>
-  <div class="num">Num-Konversation bereit</div>
+
+  <!-- 81-Würfel Anzeige -->
+  <div class="stat">Würfel gesamt: 81</div>
+  <div class="stat">Würfel aktiv: 12</div>
+  <div class="stat">Würfel reserviert: 9</div>
+  <div class="stat">Würfel frei: 60</div>
+
+  <!-- CPU-spezifisch -->
+  <div class="stat">CPU-Kerne aktiv: 4</div>
+  <div class="stat">CPU-Kerne möglich: 6</div>
+
+  <div class="stat">CPU zeigt Würfel-Status (minimal)</div>
 </div>
 
 </body>
 </html>
-

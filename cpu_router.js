@@ -16,4 +16,3 @@ export function CPU_ROUTER(msg) {
     // Fehler
     return { sys: "AUA", num: 99 };
 }
-
